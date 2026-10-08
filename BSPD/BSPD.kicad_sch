@@ -1305,6 +1305,373 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_MSM1:MOSFET_P-CH"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS215P"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/BSS215P_Rev2.3.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f6860601311833f57144fb"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MSM standard 3-pin P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFN" "Infineon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFP" "BSS215PH6327XTSA1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "S1PN" "726-BSS215PH6327"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "S1PL" "https://mou.sr/47FLs0q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "S2PN" "BSS215PH6327XTSA1CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "S2PL" "https://www.digikey.co.uk/short/b7nb9h5w"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TSOT-23 SOT-23 MOSFET Single FET P-Channel N-Channel P N Channel"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOSFET_P-CH_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MOSFET_P-CH_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom_MSM:MOSFET_N-CH"
 			(pin_names
 				(offset 0)
@@ -4154,7 +4521,7 @@
 		(uuid "1304fa9e-ae0d-457d-8c83-0a1c3259314a")
 	)
 	(rectangle
-		(start 317.5 139.7)
+		(start 303.53 139.7)
 		(end 383.54 222.25)
 		(stroke
 			(width 0)
@@ -4380,17 +4747,6 @@
 		)
 		(uuid "b6f1d890-996a-42fb-acc4-6ea825ea5ed6")
 	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 120.65 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9072a51-a5dc-4593-b619-539f1bdbf684")
-	)
 	(text "Output Normally 5V"
 		(exclude_from_sim no)
 		(at 254 67.31 0)
@@ -4491,12 +4847,6 @@
 		(uuid "fceab79e-1ac9-4af7-b290-bddf9ef9c35a")
 	)
 	(junction
-		(at 294.64 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "025aeab8-8c0a-451a-aa80-57a4a69480a1")
-	)
-	(junction
 		(at 219.71 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4506,13 +4856,7 @@
 		(at 209.55 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f41aaff-6b8e-49b3-9608-b842a166270e")
-	)
-	(junction
-		(at 186.69 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1599fbaa-52c0-48ce-b18f-2d169133b534")
+		(uuid "1a297bb2-9741-4144-ae54-9aaeae415f36")
 	)
 	(junction
 		(at 344.17 175.26)
@@ -4555,6 +4899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a1921de-ea65-4c6a-a15a-977f3c28c258")
+	)
+	(junction
+		(at 323.85 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40023712-c322-4c0e-916b-5fe9ed9bce73")
 	)
 	(junction
 		(at 68.58 156.21)
@@ -4693,6 +5043,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c94a766c-db2c-44bd-bea6-51bb0768892f")
+	)
+	(junction
+		(at 198.12 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc91525-48fd-4251-879a-bd69167e8bfc")
 	)
 	(junction
 		(at 285.75 63.5)
@@ -4841,16 +5197,6 @@
 			(type default)
 		)
 		(uuid "0be04cc7-6168-446e-8ff9-c3f45d1ce229")
-	)
-	(wire
-		(pts
-			(xy 294.64 193.04) (xy 326.39 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c26c7a1-5787-4f66-9504-5be8105fd6e4")
 	)
 	(wire
 		(pts
@@ -5184,7 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 193.04) (xy 294.64 193.04)
+			(xy 321.31 193.04) (xy 323.85 193.04)
 		)
 		(stroke
 			(width 0)
@@ -5414,16 +5760,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 60.96) (xy 194.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614a01f5-2437-48bf-a1a2-bc429ebb0b96")
-	)
-	(wire
-		(pts
 			(xy 93.98 177.8) (xy 105.41 177.8)
 		)
 		(stroke
@@ -5644,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 186.69 60.96)
+			(xy 196.85 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5701,16 +6037,6 @@
 			(type default)
 		)
 		(uuid "8d257ccd-caab-443c-8fcd-eb98d2f89dc6")
-	)
-	(wire
-		(pts
-			(xy 129.54 148.59) (xy 129.54 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5e2555-50d7-4b5c-a461-2a876a1f7e0a")
 	)
 	(wire
 		(pts
@@ -5941,6 +6267,16 @@
 			(type default)
 		)
 		(uuid "ab2506c6-57e4-4ed2-a9cf-2ec900842492")
+	)
+	(wire
+		(pts
+			(xy 323.85 193.04) (xy 326.39 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac686349-5c22-499a-83ac-2b13a694a28a")
 	)
 	(wire
 		(pts
@@ -6454,7 +6790,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 153.67) (xy 129.54 153.67)
+			(xy 105.41 153.67) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6544,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 60.96) (xy 209.55 60.96)
+			(xy 207.01 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6641,6 +6977,16 @@
 			(type default)
 		)
 		(uuid "fbd278cb-5b91-4792-8d4c-a4d91e7c80aa")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7dbed4-9828-40d8-a373-e7cc30e99741")
 	)
 	(wire
 		(pts
@@ -7014,7 +7360,7 @@
 	)
 	(global_label "Timer inverted"
 		(shape input)
-		(at 284.48 193.04 180)
+		(at 321.31 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7024,7 +7370,7 @@
 		)
 		(uuid "6b944769-52a1-4434-a4b2-717d7abbc659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.363 193.04 0)
+			(at 309.193 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,7 +7816,7 @@
 	)
 	(global_label "SCS"
 		(shape input)
-		(at 129.54 148.59 90)
+		(at 113.03 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7480,7 +7826,7 @@
 		)
 		(uuid "dec68c4a-81ee-46e2-9980-e1f0c9ef23a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 145.3508 90)
+			(at 119.7042 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7888,7 @@
 	)
 	(global_label "Fault check"
 		(shape input)
-		(at 176.53 60.96 180)
+		(at 196.85 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7552,7 +7898,7 @@
 		)
 		(uuid "f1d61402-37af-4369-b25e-02b4b6bd5542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.3568 60.96 0)
+			(at 182.6768 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,6 +9337,157 @@
 			(project "BSPD"
 				(path "/c4f406c8-9fdc-482e-86f3-b01ba135596e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM1:MOSFET_P-CH")
+		(at 292.1 63.5 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24c33339-17f1-458b-adf2-e54cab83e02a")
+		(property "Reference" "Q1"
+			(at 298.45 64.7701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS215P"
+			(at 298.45 62.2301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 297.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS215P_Rev2.3.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f6860601311833f57144fb"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MSM standard 3-pin P-Channel MOSFET"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "BSS215PH6327XTSA1"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "726-BSS215PH6327"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47FLs0q"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "BSS215PH6327XTSA1CT-ND"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/b7nb9h5w"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da02cc89-d350-4584-b77c-4f18399de856")
+		)
+		(pin "2"
+			(uuid "8879dd76-07d9-4bf9-b4ec-19dea61ebff3")
+		)
+		(pin "3"
+			(uuid "7e5a2b6b-6a76-4000-8d66-70858b860ecb")
+		)
+		(instances
+			(project "BSPD"
+				(path "/c4f406c8-9fdc-482e-86f3-b01ba135596e"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11581,7 +12078,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 186.69 60.96 180)
+		(at 198.12 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11591,7 +12088,7 @@
 		(dnp no)
 		(uuid "68cf1a92-bc38-423a-81ff-7197aa46a07e")
 		(property "Reference" "TP3"
-			(at 185.42 67.31 0)
+			(at 196.85 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11602,7 +12099,7 @@
 			)
 		)
 		(property "Value" "Logic_Output_TP"
-			(at 185.42 69.85 0)
+			(at 196.85 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11613,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 181.61 60.96 0)
+			(at 193.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,7 +12121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 60.96 0)
+			(at 193.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11635,7 +12132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 60.96 0)
+			(at 198.12 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12326,7 +12823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 60.96 90)
+		(at 203.2 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12337,7 +12834,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bb770d9-5771-439c-b774-3146378b5d5d")
 		(property "Reference" "R15"
-			(at 198.12 54.61 90)
+			(at 203.2 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12347,7 +12844,7 @@
 			)
 		)
 		(property "Value" "430k"
-			(at 198.12 57.15 90)
+			(at 203.2 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12357,7 +12854,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.12 62.738 90)
+			(at 203.2 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12368,7 +12865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 60.96 0)
+			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12379,7 +12876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 60.96 0)
+			(at 203.2 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12635,7 +13132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 294.64 193.04 0)
+		(at 323.85 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12643,10 +13140,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c161bfc-2d96-4ab6-a7c1-565c2f547a1d")
 		(property "Reference" "TP5"
-			(at 297.18 188.468 0)
+			(at 318.77 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12657,7 +13153,7 @@
 			)
 		)
 		(property "Value" "Relay_Signal_TP"
-			(at 297.18 191.008 0)
+			(at 318.77 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12668,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 299.72 193.04 0)
+			(at 328.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +13175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 193.04 0)
+			(at 328.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +13186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 193.04 0)
+			(at 323.85 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16110,157 +16606,6 @@
 			(project "BSPD"
 				(path "/c4f406c8-9fdc-482e-86f3-b01ba135596e"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 292.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e776b6d8-ef4b-45c2-a00b-8e333985f07b")
-		(property "Reference" "Q1"
-			(at 298.45 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 298.45 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 297.18 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 292.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "79981ab7-092a-4d30-b011-f6aa056a8589")
-		)
-		(pin "1"
-			(uuid "2e3956ea-8dcd-4436-b580-75d0af463b5c")
-		)
-		(pin "3"
-			(uuid "e53fac4b-8a61-4e5a-8ddd-c5d5d506d061")
-		)
-		(instances
-			(project "BSPD"
-				(path "/c4f406c8-9fdc-482e-86f3-b01ba135596e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
